@@ -1,7 +1,7 @@
-import numpy as np  # for matrix calculation
+import numpy as np  
 # load the CSV file as a numpy matrix
 #separate the data with " "(blank,\t)
-dataset = np.loadtxt('/home/parker/watermelonData/watermelon3_0a.csv', delimiter=",")
+dataset = np.loadtxt('/root/LDA/watermelon3_0a.csv', delimiter=",")
 print(dataset)
 # separate the data from the target attributes
 X = dataset[:, 1:3]
